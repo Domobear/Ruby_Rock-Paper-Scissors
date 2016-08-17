@@ -65,7 +65,7 @@ begin
 	puts "#{playerChooseText}", "#{selectionText[playerIntInput]}"
 	puts "#{aiChooseText}", "#{selectionText[aiInput]}"
 
-	result = CheckResult(intInput, aiInput)
+	result = CheckResult(playerIntInput, aiInput)
 	puts "#{resultText[result]}"
 
 	#End
