@@ -1,10 +1,8 @@
 #Member
 titleText = "Welcome to Rock-paper-scissors"
 
-count = 0
 titleBarText = ""
-while(count < titleText.length)
-	count += 1
+while(titleBarText.length < titleText.length)
 	titleBarText += "="
 end
 
